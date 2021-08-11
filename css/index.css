@@ -1,0 +1,82 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	background: #260405;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#btn_login {
+	color: red;
+	background-color: greenyellow;
+	font-size: 20px;
+}
+
+#title {
+	text-align: left;
+	color: #24B64A;
+	font-family: "Terminal";
+	font-size: 25px;
+}
+
+#hello-world {
+	text-align: center;
+	line-height: 500px;
+	font-size: 100px;
+}
+
+.header-bottom{
+    line-height:90px; clear:both;background: url("../images/subtle_dots.png") repeat #5A1B1C;
+    border-bottom: 1px solid #d8d8d8;
+    overflow: hidden;
+}
+
+ul li{
+    list-style: none;
+}
+
+.logo{
+    width: 60px;float:left;margin-left:15px; margin-top:16px;
+}
+
+.menu{
+    float:left; 
+    width: 680px;
+    margin-left: 20px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style: none;
+}
+.menu ul li {
+    padding-left: 8px;
+    display: inline;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+    padding: 0 0.2em 0 0.2em;
+    color: cyan;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+    padding: 0 0.2em 0 0.2em;
+    color: #555!important;
+    text-decoration: none;
+}
+
+.login{
+    float: right;
+    margin-right: 15px;
+}
