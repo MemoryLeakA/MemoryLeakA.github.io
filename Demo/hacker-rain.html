@@ -9,6 +9,8 @@
       body {
         margin: 0;
         padding: 0;
+        width: 100%;
+        height: 100%;
       }
       canvas {
         width: 100%;
@@ -16,9 +18,35 @@
       }
     </style>
   </head>
+  <script type="text/javascript">
+    function pranx(){
+      alert("hello");
+      window.open("https://pranx.com/");
+    }
+     window.onload = function () {
+        document.ondblclick = pranx;
+        var div = document.querySelector("div");
+          //使用Chrome浏览器需要加上webkit
+          // div.webkitRequestFullScreen();
+          // div.requestFullscreen();
+          //使用FireFox浏览器需要加上moz
+          // div.mozRequestFullScreen();
+
+          //    所有浏览器都可以全屏，使用能力测试
+          if (div.requestFullscreen) {
+              div.requestFullscreen();
+          } else if (div.webkitRequestFullScreen) {
+              div.webkitRequestFullScreen();
+          } else if (div.mozRequestFullScreen) {
+              div.mozRequestFullScreen();
+          } else if (div.msRequestFullScreen) {
+              div.msRequestFullScreen();
+        }
+  </script>
   <body>
-    <canvas style="background:#111"></canvas>
- 
+    <div ondblclick="window.open('https://pranx.com/hacker/')">
+    <canvas style="background:#111" id="full"></canvas>
+    </div>
     <script>
       //获取画布对象
       var can = document.querySelector("canvas");
