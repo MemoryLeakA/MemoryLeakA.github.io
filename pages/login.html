@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Login</title>  
+    <link rel="stylesheet" type="text/css" href="../css/login.css"/>  
+</head>  
+<body>  
+    <div id="login">  
+        <h1>登录</h1>  
+        <form method="post">  
+            <input type="text" required="required" placeholder="用户名 / id / 邮箱" id="u"></input>  
+            <input type="password" required="required" placeholder="密码" id="p"></input>  
+            <button class="but" type="submit" onClick="onLoginClick()" >登录</button>  
+            <p>没有账户？</p>
+            <a href="#" target="_blank">点击注册</a>
+        </form>  
+    </div>  
+</body>  
+<script type="text/javascript">
+    function onLoginClick() {
+        window.open('../Demo/Friends/Liuzhu/index.html');
+    }
+</script>
+</html>  
