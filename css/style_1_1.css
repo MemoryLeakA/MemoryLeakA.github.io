@@ -916,6 +916,7 @@ header #navbar li a {
 .social li a:hover {
   /*background: #393e46 !important;*/
   box-shadow: 0px 0px 10px #000000;
+  background: #e6e6e6;
 }
 .social.social-box a {
   background: #6173f4;
