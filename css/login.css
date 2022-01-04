@@ -148,11 +148,23 @@ a{color:inherit;text-decoration:none}
 	text-align:center;
 }
 #already {
-	cursor: pointer;
+	cursor: url("../images/cursor/pointer.cur"), pointer;
 }
 #already:hover {
 	color: green;
 }
 #close {
     float: right;
+}
+#close-login {
+    cursor: url("../images/cursor/pointer.cur"), pointer;
+}
+label {
+    cursor: url("../images/cursor/pointer.cur"), pointer;
+}
+input.input {
+    cursor: url("../images/cursor/text.cur"), pointer;
+}
+input.button {
+    cursor: url("../images/cursor/pointer.cur"), pointer;
 }
